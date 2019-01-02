@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+  function1.c
+  function2.c
+  function4.c
+  main.c
+c:\users\user\desktop\final-project-ooxx-all-master\source\main.c(11): warning C4013: 'init_game' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\final-project-ooxx-all-master\source\main.c(12): warning C4013: 'show_game' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\final-project-ooxx-all-master\source\main.c(16): warning C4013: 'play_game' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\final-project-ooxx-all-master\source\main.c(18): warning C4013: 'check_game' 未定義; 假設 extern 傳回整數
+  正在產生程式碼...
+main.obj : error LNK2019: 無法解析的外部符號 _show_game 在函式 _main 中被參考
+..\..\temp\debug\game.exe : fatal error LNK1120: 1 個無法解析的外部符號
